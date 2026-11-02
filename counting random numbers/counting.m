@@ -11,9 +11,11 @@ end
 
 A = randi(5,1,10)
 counter=0
-for i = length (A)
-if i ==3
-counter = counter + 1
-if sum(A==3) >= 3
+for i = 1:length (A)
+   if A(i) ==3
+  counter = counter + 1
+  end
+
+if counter >= 3
 disp('wow')
 end
