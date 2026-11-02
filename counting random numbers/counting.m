@@ -5,3 +5,15 @@ disp(sum(A==3))
 if sum(A==3) >= 3
 disp('wow')
 end
+
+%% this used for sectioning on matlab
+% other way to do the above.
+
+A = randi(5,1,10)
+counter=0
+for i = length (A)
+if i ==3
+counter = counter + 1
+if sum(A==3) >= 3
+disp('wow')
+end
