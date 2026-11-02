@@ -15,7 +15,7 @@ for i = 1:length (A)
    if A(i) ==3
   counter = counter + 1
   end
-
+end
 if counter >= 3
 disp('wow')
 end
