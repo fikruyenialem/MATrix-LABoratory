@@ -13,9 +13,10 @@ A = randi(5,1,10)
 counter=0
 for i = 1:length (A)
    if A(i) ==3
-  counter = counter + 1
+  counter = counter + 1 ;
   end
 end
+disp(counter)
 if counter >= 3
 disp('wow')
 end
