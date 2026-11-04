@@ -26,3 +26,4 @@ num = 100;
 while num> 5
 disp(sqrt(num))
 num = num- 10;
+end
