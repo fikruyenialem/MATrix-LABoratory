@@ -20,3 +20,9 @@ disp(counter)
 if counter >= 3
 disp('wow')
 end
+%% section 3, square root of a number
+clc, clearvars
+num = 100;
+while num> 5
+disp(sqrt(num))
+num = num- 10;
