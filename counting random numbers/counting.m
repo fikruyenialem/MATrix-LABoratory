@@ -20,7 +20,7 @@ disp(counter)
 if counter >= 3
 disp('wow')
 end
-%% section 3, square root of a number
+%% section 3, square root of a number with out function
 clc, clearvars
 num = 100;
 while num> 5
@@ -28,3 +28,15 @@ disp(sqrt(num))
 num = num- 10;
 end
 disp('loop end')
+%% section 4, square root of a number with  function
+function y = square_num(x)
+    y = x^2;
+end
+clc
+clearvars
+
+a = square_num(5);
+b = square_num(10);
+
+disp(a)
+disp(b)
