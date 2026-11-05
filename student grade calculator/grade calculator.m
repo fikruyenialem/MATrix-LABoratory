@@ -5,7 +5,7 @@ clear;
 
 disp('student grade calculator');
 
-marks = zeros(1,5);
+marks = zeros(1,5);% forming arow if matrix
 
 for i = 1:5
     marks(i) = input(['enter mark for subject ', num2str(i), ': ']);
@@ -23,7 +23,7 @@ elseif average >= 80
     grade = 'b';
 elseif average >= 70
     grade = 'c';
-elseif average >50
+elseif average >=50
     grade = 'd';
 else
     grade = 'f';
